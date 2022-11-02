@@ -1,1 +1,1 @@
-apturl
+apparmor apturl
