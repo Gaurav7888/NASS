@@ -12,7 +12,6 @@ chardet==4.0.0
 cli-helpers==2.2.1
 click==8.0.3
 colorama==0.4.4
-command-not-found==0.3
 commonmark==0.9.1
 configobj==5.0.6
 contourpy==1.0.6
