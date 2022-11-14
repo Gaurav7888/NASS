@@ -12,7 +12,7 @@ st.subheader("Stock market bubbles ")
 st.subheader("Asset Market bubbles")
 st.subheader("Credit Bubbles ")
 st.subheader("Commodity bubbles")
-st.image("../static/stage.png")
+st.image("stage.png")
 
 st.image("/home/gaurav/Documents/nass/pages/static/arc.png")
 
