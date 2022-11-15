@@ -13,8 +13,8 @@ st.subheader("Asset Market bubbles")
 st.subheader("Credit Bubbles ")
 st.subheader("Commodity bubbles")
 st.image("https://github.com/Gaurav7888/NASS/blob/a1ed326890897f617000d9278d3dd49223bcdf12/pages/static/stage.png")
-st.image("Gaurav7888/NASS/blob/main/pages/arc.png")
-
+st.image("pages/static/stage.png")
+#arc
 st.header("1. Gross Domestic Product(GDP)")
 st.write("It’s never good when the economy contracts, much less two quarters in a row. While the revised second quarter number was an improvement over the initial reading, that will do little to reassure U.S. markets and households about the economy’s health")
 st.write(" Less growth in economy essentially indicates bad GDP and this is one of the indicator of the recession,which in turn forms one of the strong indicator of the stock market crash, although not necessarily.")
