@@ -13,20 +13,19 @@ st.subheader("Asset Market bubbles")
 st.subheader("Credit Bubbles ")
 st.subheader("Commodity bubbles")
 st.image("https://github.com/Gaurav7888/NASS/blob/a1ed326890897f617000d9278d3dd49223bcdf12/pages/static/stage.png")
-st.image("pages/static/stage.png")
-#arc
+st.image("https://github.com/Gaurav7888/NASS/blob/f09a1dcc7c9d0c3ea1ef9bf0331d93031fd75952/pages/static/arc.png")
 st.header("1. Gross Domestic Product(GDP)")
 st.write("It’s never good when the economy contracts, much less two quarters in a row. While the revised second quarter number was an improvement over the initial reading, that will do little to reassure U.S. markets and households about the economy’s health")
 st.write(" Less growth in economy essentially indicates bad GDP and this is one of the indicator of the recession,which in turn forms one of the strong indicator of the stock market crash, although not necessarily.")
-st.image("/home/coder/project/workspace/NASS/pages/static/gdp.png")
-st.image("/home/coder/project/workspace/NASS/pages/static/covid.png")
-st.image("/home/coder/project/workspace/NASS/pages/static/covid_report.png")
+st.image("https://github.com/Gaurav7888/NASS/blob/f09a1dcc7c9d0c3ea1ef9bf0331d93031fd75952/pages/static/gdp.png")
+st.image("https://github.com/Gaurav7888/NASS/blob/f09a1dcc7c9d0c3ea1ef9bf0331d93031fd75952/pages/static/covid.png")
+st.image("https://github.com/Gaurav7888/NASS/blob/f09a1dcc7c9d0c3ea1ef9bf0331d93031fd75952/pages/static/covid_report.png")
 
 
 st.header("2. Consumer Price Index (CPI)")
 st.write("Inflation may have moderated somewhat from June and July, but it’s still sky-high and wrecking the purchasing power of everyday Americans. Price growth is so hot that the Fed is willing to increase unemployment and slow the economy even further to get inflation under control.")
-st.image("/home/coder/project/workspace/NASS/pages/static/cpi.png")
-st.image("/home/coder/project/workspace/NASS/pages/static/cpi2.png")
+st.image("https://github.com/Gaurav7888/NASS/blob/f09a1dcc7c9d0c3ea1ef9bf0331d93031fd75952/pages/static/cpi.png")
+st.image("https://github.com/Gaurav7888/NASS/blob/f09a1dcc7c9d0c3ea1ef9bf0331d93031fd75952/pages/cpi2.png")
 
 st.write("Observation: Once the consumer price index gets low, it's a strong indication that the stock market bubble will be formed.")
 
@@ -39,8 +38,8 @@ st.write("Industrial production has been hit due to the coronavirus pandemic sin
 st.header("4. Industrial Production")
 st.write("Industrial production declined in August, as businesses struggle with a difficult environment.")
 st.write("“Industrial production lost momentum in August falling 0.2%,” per a Wells Fargo Securities report. “While a 2.3% drop in utilities and a flat reading for mining offered no help, manufacturing did eke out a scant 0.1% gain, but regional Fed surveys portend trouble on the horizon for the factory sector.”")
-st.image("/home/coder/project/workspace/NASS/pages/static/industri_prod.png")
-st.image("/home/coder/project/workspace/NASS/pages/static/russia.png")
+st.image("https://github.com/Gaurav7888/NASS/blob/f09a1dcc7c9d0c3ea1ef9bf0331d93031fd75952/pages/industri_prod.png")
+st.image("https://github.com/Gaurav7888/NASS/blob/f09a1dcc7c9d0c3ea1ef9bf0331d93031fd75952/pages/russia.png")
 st.write("Whenever any bubble gets formed, or any unexpected situation aggravates the situation of bubble, as depicted in the above picture, industrial production gets affected badly")
 
 
@@ -53,8 +52,8 @@ st.write("Observation: 1) Less industrial production indicates that the economy 
 st.header("Recession Tracker: Markets Data")
 st.header("1. The Stock Market (S&P 500)")
 st.write("Observation: ")
-st.image("/home/coder/project/workspace/NASS/pages/static/2002.png")
-st.image("/home/coder/project/workspace/NASS/pages/static/2008.png")
+st.image("https://github.com/Gaurav7888/NASS/blob/f09a1dcc7c9d0c3ea1ef9bf0331d93031fd75952/pages/2002.png")
+st.image("https://github.com/Gaurav7888/NASS/blob/f09a1dcc7c9d0c3ea1ef9bf0331d93031fd75952/pages/2008.png")
 st.write("In the above picture,Whenever there is exponential and continuous rise in the stock market over a longer span of time, it's a strong indicator of economic bubble")
 st.write("GDP growth or slowdown is a strong barometer of the economy of the market. The above two graphs indicates that the GDP growth egts slowdown , this leads to the crash of the stock market. ")
 
@@ -64,11 +63,11 @@ st.write("GDP growth or slowdown is a strong barometer of the economy of the mar
 
 
 st.header("2. Treasury Yield Curve")
-st.image("/home/coder/project/workspace/NASS/pages/static/yieldcurve.png")
+st.image("https://github.com/Gaurav7888/NASS/blob/f09a1dcc7c9d0c3ea1ef9bf0331d93031fd75952/pages/yieldcurve.png")
 st.write("When short-term interest rates yield more than longer-term rates, it’s called an inverted yield curve. This is typically a tell-tale sign of an impending recession, as the market believes economic growth will be weak. The yield curve has been inverted since early July.")
 
 st.header("Stock Market Crash : Jobs Data Unemployment Rate")
-st.image("/home/coder/project/workspace/NASS/pages/static/unemp.png")
+st.image("https://github.com/Gaurav7888/NASS/blob/f09a1dcc7c9d0c3ea1ef9bf0331d93031fd75952/pages/unemp.png")
 
 st.write("Despite wobbliness throughout the economy and concerns about a further slowdown in the coming months, the U.S. labor market remains robust. The unemployment rate has recovered to its pre-pandemic level, and is down 2 percentage points from the same time last year. Meanwhile, employers added 315,000 jobs in August after increasing payroll by 526,000 in July. Essentially, anyone who wants a job can find one. The Fed has two mandates: Maximize employment and keep prices stable. A strong labor situation has allowed the Fed to focus on bringing down inflation.")
 st.header("Job Openings and Labor Turnover Survey (JOLTS)")
@@ -85,11 +84,11 @@ st.header("NAHB Home Builders Index")
 st.write("U.S. home builders are not optimistic. The Home Builders Index fell another three points in September to 46, indicating that most builders view the housing market as poor. This was the ninth consecutive decline, which dovetails with higher mortgage rates and fewer single-homes being constructed.The South is the only region in the U.S. above the breakeven mark of 50.")
 
 st.header("P/E Ratio")
-st.image("/home/coder/project/workspace/NASS/pages/static/PE.png")
+st.image("https://github.com/Gaurav7888/NASS/blob/f09a1dcc7c9d0c3ea1ef9bf0331d93031fd75952/pages/PE.png")
 st.write("Higher P/E ratio, either compared to competitor's share or industry standards showcases that a market is overvalued and it's an indication of sideways market soon. However, having higer P/E could also be a sign of growth of a particular company but run-up is rare.")
 st.write(" Lower P/E ratio is also a sign of worry because ..")
 st.header("DEBT-TO-EQUITY RATIO")
-st.image("/home/coder/project/workspace/NASS/pages/static/DET.png")
+st.image("https://github.com/Gaurav7888/NASS/blob/f09a1dcc7c9d0c3ea1ef9bf0331d93031fd75952/pages/DET.png")
 st.write("If D/E>1, it's one of the strong indicator to show that overall health of market is bad and it's one of the indicator of crash")
 st.write(" Having low D/E ratio is good as it helps the companies to survive better during tough times")
 st.write("Sector specific D/E ratio significance")
@@ -108,7 +107,7 @@ st.write("Earnings per share (EPS) is a company's net profit divided by the numb
 st.header("We live in world following Globalisation. Crude Oil prices went up throughout the world due to Russia-Ukraine war . Inflation increased throughout the world due to the same. In order to control the inflation, Government took measures to control it by increasing the interest rates. All these indicates bad state of economy")
 st.header("Other Factors")
 st.write("Expert Opine: Ray Dalio and Michael Burry ,social media such as Twitter and Reddit, famous new channels such as CNBC_TV, Geopolitics of Specific Countries ,just like China Evergrande Group,Unexpected Scenarios such as Covid, Russia Ukraine war, FED Interest Rates- Don’t bet against the FED, Repo rates in India, Artificial Growth in economy")
-st.image("/home/coder/project/workspace/NASS/pages/static/gg.png")
+st.image("https://github.com/Gaurav7888/NASS/blob/f09a1dcc7c9d0c3ea1ef9bf0331d93031fd75952/pages/gg.png")
 st.header("Finance Modelling Approaches")
 st.header("Probabilistic")
 st.write("One of the main assumptions about the financial markets, at least as far as quantitative finance goes, is that asset prices are random. We tend to think of describing financial variables as following some ran- dom path, with parameters describing the growth of the asset and its degree of randomness. We effectively model the asset path via a specified rate of growth,on average, and its deviation from that average. This approach to modelling has had the greatest impact over the last 30 years, leading to the explosive growth of the derivatives markets")
@@ -134,19 +133,19 @@ st.write("This is a very special technique that only works in certain situations
 
 st.header("Some strong indicators")
 st.header("Prolonged Dovish Monetary Policy")
-st.image("/home/coder/project/workspace/NASS/pages/static/fed.png")
+st.image("https://github.com/Gaurav7888/NASS/blob/f09a1dcc7c9d0c3ea1ef9bf0331d93031fd75952/pages/fed.png")
 st.header("An Extended Bull Market")
 st.header("A High Cyclically Adjusted Price-to-Earnings (CAPE) Ratio")
 st.write("Some use the CAPE ratio to determine whether the markets as a whole are undervalued, in which case they should go higher, or over-valued, which suggests they're headed for a crash. The CAPE ratio for the S&P 500 Index at the end of January 2021 stood at 33.74.")
 st.header("Rising Inflation")
-st.image("/home/coder/project/workspace/NASS/pages/static/inflation_stock.png")
+st.image("https://github.com/Gaurav7888/NASS/blob/f09a1dcc7c9d0c3ea1ef9bf0331d93031fd75952/pages/inflation_stock.png")
 
 st.header("The Buffett Indicator")
-st.image("/home/coder/project/workspace/NASS/pages/static/buffet_indic.png")
+st.image("https://github.com/Gaurav7888/NASS/blob/f09a1dcc7c9d0c3ea1ef9bf0331d93031fd75952/pages/buffet_indic.png")
 st.header("An Inverted Yield Curve")
 
 st.header("Final Framework")
-st.image("/home/coder/project/workspace/NASS/pages/static/allbub.png")
+st.image("https://github.com/Gaurav7888/NASS/blob/f09a1dcc7c9d0c3ea1ef9bf0331d93031fd75952/pages/allbub.png")
 st.header("2002 DotCom Bubble")
 st.subheader("Factors")
 st.subheader("1. Speculation of Crash")
@@ -154,19 +153,19 @@ st.subheader("2. Investor Hype & Overevaluation  ")
 st.subheader("3. Expert's Opinion: Alan Greenspan’s Speech ")
 st.subheader("4. Taxpayer Relief Act of 1997")
 st.write("Our Economic Framework: We have essentially created a framework consisting of check lists of economic parameters. Given that we consider the above-mentioned parameters, probability of most of the economic bubbles could be predicted")
-st.image("/home/coder/project/workspace/NASS/pages/static/final1.png")
+st.image("https://github.com/Gaurav7888/NASS/blob/f09a1dcc7c9d0c3ea1ef9bf0331d93031fd75952/pages/final1.png")
 
-st.image("/home/coder/project/workspace/NASS/pages/static/tb2.png")
+st.image("https://github.com/Gaurav7888/NASS/blob/f09a1dcc7c9d0c3ea1ef9bf0331d93031fd75952/pages/tb2.png")
 st.write("This picture shows that cycle of economy consists of Recessions, Expansions and Long term Debt cycles")
 
 st.header("Changing World Order: A different financial narrative on the tech bubble ")
-st.image("//home/coder/project/workspace/NASS/pages/static/tb1.png")
+st.image("https://github.com/Gaurav7888/NASS/blob/f09a1dcc7c9d0c3ea1ef9bf0331d93031fd75952/pages/tb1.png")
 st.write("The above picture depicts that the US devt held by public. It shows everytime a new high comes in the stock markrt, Debt cycle starts ")
 
 
 
-st.image("/home/coder/project/workspace/NASS/pages/static/tb4.png")
-st.image("/home/coder/project/workspace/NASS/pages/static/tb5.png")
+st.image("https://github.com/Gaurav7888/NASS/blob/f09a1dcc7c9d0c3ea1ef9bf0331d93031fd75952/pages/tb4.png")
+st.image("https://github.com/Gaurav7888/NASS/blob/f09a1dcc7c9d0c3ea1ef9bf0331d93031fd75952/pages/tb5.png")
 st.write("The above picture depicts the debt cycle bubble ")
 
 
@@ -176,8 +175,8 @@ st.subheader("1. Excessive risk-taking in a favourable macroeconomic environment
 st.subheader("2. Increased borrowing by banks and investors")
 st.subheader("3.  Regulation and policy errors")
 st.write("Our Economic Framework: We have essentially created a framework consisting of check lists of economic parameters. Given that we consider the above-mentioned parameters, probability of most of the economic bubbles could be predicted ")
-st.image("/home/coder/project/workspace/NASS/pages/static/final2.png")
-st.image("/home/coder/project/workspace/NASS/pages/static/final3.png")
+st.image("https://github.com/Gaurav7888/NASS/blob/f09a1dcc7c9d0c3ea1ef9bf0331d93031fd75952/pages/final2.png")
+st.image("https://github.com/Gaurav7888/NASS/blob/f09a1dcc7c9d0c3ea1ef9bf0331d93031fd75952/pages/final3.png")
 
 st.header("CONCLUSION")
 st.write("The world of stock market is extremely subjective. No one can time or predict the market but with the aid of Technology and other financial data points or models, probability of prediction of stock market could be done. In this, different data points have been used and using this framework of considering the above-mentioned data points ,one can check the existence bubble in stock market")
