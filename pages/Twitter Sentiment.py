@@ -15,7 +15,7 @@ from tensorflow.keras.models import Model
 from tensorflow.keras.models import load_model
 import joblib
 
-df = pd.read_csv("/home/gaurav/Documents/nass/pages/static/Final_nflx_data_2018-2022.csv")
+df = pd.read_csv("/home/gaurav/Documents/nass/pages/Final_nflx_data_2018-2022.csv")
 
 df['date'] = pd.to_datetime(df['date'])
 
