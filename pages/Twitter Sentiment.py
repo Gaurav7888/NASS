@@ -82,7 +82,8 @@ X_train_lstm_without_twitter, X_val_lstm_without_twitter, y_train_lstm_without_t
 
 X_train_lstm_twitter, X_val_lstm_twitter, y_train_lstm_twitter, y_val_lstm_twitter = train_test_split(X_train_lstm_twitter, y_train_lstm_twitter, test_size=0.1, shuffle=False)
 
-
+# Model trained using Gpu supported environment(Google Colab)
+# Check out :- https://colab.research.google.com/drive/1pKZ-gJe-GYg_asx455MXX7G01baeymQO?usp=sharing
 
 cnn_lstm_model_twitter = joblib.load("/home/gaurav/Documents/nass/pages/withmodel.pkl")
 
@@ -364,16 +365,15 @@ prediction=scaler_for_inference.inverse_transform(prediction)
 forecast_dates = []
 for time_i in predict_period_dates:
     forecast_dates.append(time_i.date())
-
+st.write("We used LSTM model bagged by twiter sentiment data for inference")
 st.write('Date')
 st.write(forecast_dates[-2])
 st.write("Prediction open") 
-st.write(prediction[0][0])
-st.write("Date")
-st.write(forecast_dates[-2]) 
+st.write(prediction[0][0]) 
 st.write("Prediction Adjusted close") 
 st.write(prediction[0][1])
 
+st.subheader("Our LSTM model is doing great as you can check the real value")
 x_forcast=X_arima[X_arima.index =='2022-07-07']
 x_forcast
 
@@ -387,12 +387,3 @@ forecast_dates = []
 for time_i in predict_period_dates:
     forecast_dates.append(time_i.date())
 
-
-st.write('Date')
-st.write(forecast_dates[-2])
-st.write("Prediction open") 
-st.write(open_prediction)
-st.write("Date")
-st.write(forecast_dates[-2]) 
-st.write("Prediction Adjusted close") 
-st.write(adj_close_prediction)
