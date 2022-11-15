@@ -175,8 +175,8 @@ st.subheader("1. Excessive risk-taking in a favourable macroeconomic environment
 st.subheader("2. Increased borrowing by banks and investors")
 st.subheader("3.  Regulation and policy errors")
 st.write("Our Economic Framework: We have essentially created a framework consisting of check lists of economic parameters. Given that we consider the above-mentioned parameters, probability of most of the economic bubbles could be predicted ")
-st.image("https://github.com/Gaurav7888/NASS/blob/f09a1dcc7c9d0c3ea1ef9bf0331d93031fd75952/pages/final2.png")
-st.image("https://github.com/Gaurav7888/NASS/blob/f09a1dcc7c9d0c3ea1ef9bf0331d93031fd75952/pages/final3.png")
+st.image("pages/final2.png")
+st.image("pages/final3.png")
 
 st.header("CONCLUSION")
 st.write("The world of stock market is extremely subjective. No one can time or predict the market but with the aid of Technology and other financial data points or models, probability of prediction of stock market could be done. In this, different data points have been used and using this framework of considering the above-mentioned data points ,one can check the existence bubble in stock market")
