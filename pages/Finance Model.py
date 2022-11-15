@@ -12,7 +12,7 @@ st.subheader("Stock market bubbles ")
 st.subheader("Asset Market bubbles")
 st.subheader("Credit Bubbles ")
 st.subheader("Commodity bubbles")
-st.image("https://github.com/Gaurav7888/NASS/blob/main/pages/static/stage.png")
+st.image("https://github.com/Gaurav7888/NASS/blob/a1ed326890897f617000d9278d3dd49223bcdf12/pages/static/stage.png")
 st.image("Gaurav7888/NASS/blob/main/pages/arc.png")
 
 st.header("1. Gross Domestic Product(GDP)")
