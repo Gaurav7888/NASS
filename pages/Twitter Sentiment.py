@@ -94,11 +94,11 @@ X_train_lstm_twitter, X_val_lstm_twitter, y_train_lstm_twitter, y_val_lstm_twitt
 # Model trained using Gpu supported environment(Google Colab)
 # Check out :- https://colab.research.google.com/drive/1pKZ-gJe-GYg_asx455MXX7G01baeymQO?usp=sharing
 
-cnn_lstm_model_twitter = joblib.load("/home/gaurav/Documents/nass/pages/withmodel.pkl")
+cnn_lstm_model_twitter = joblib.load('pages/withmodel.pkl')
 
 #cnn_lstm_model_twitter = cnn_lstm_model_twitter.load_weights('/home/gaurav/Documents/nass/pages/withModelWeights.h5')
 
-cnn_lstm_model_without_twitter = joblib.load('/home/gaurav/Documents/nass/pages/withoutmodel.pkl')
+cnn_lstm_model_without_twitter = joblib.load('pages/withoutmodel.pkl')
 #cnn_lstm_model_without_twitter.summary()
 #cnn_lstm_model_without_twitter = cnn_lstm_model_without_twitter.load_weights('/home/gaurav/Documents/nass/pages/withoutModelWeights.h5')
 
