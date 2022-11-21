@@ -24,7 +24,7 @@ with zipfile.ZipFile('pages/withoutmodel.zip', 'r') as zip_ref:
     zip_ref.extractall('pages')
 
 
-df = pd.read_csv("/pages/Final_nflx_data_2018-2022.csv")
+df = pd.read_csv("pages/Final_nflx_data_2018-2022.csv")
 
 df['date'] = pd.to_datetime(df['date'])
 
