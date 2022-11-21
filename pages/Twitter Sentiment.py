@@ -17,11 +17,11 @@ import joblib
 import zipfile
 
 
-with zipfile.ZipFile('/home/gaurav/Documents/nass/pages/withmodel.zip', 'r') as zip_ref:
-    zip_ref.extractall('/home/gaurav/Documents/nass/pages')
+with zipfile.ZipFile('pages/withmodel.zip', 'r') as zip_ref:
+    zip_ref.extractall('pages')
 
-with zipfile.ZipFile('/home/gaurav/Documents/nass/pages/withoutmodel.zip', 'r') as zip_ref:
-    zip_ref.extractall('/home/gaurav/Documents/nass/pages')
+with zipfile.ZipFile('pages/withoutmodel.zip', 'r') as zip_ref:
+    zip_ref.extractall('pages')
 
 
 df = pd.read_csv("/pages/Final_nflx_data_2018-2022.csv")
