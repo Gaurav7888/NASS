@@ -17,11 +17,6 @@ import joblib
 import zipfile
 
 
-with zipfile.ZipFile('pages/withmodel.zip', 'r') as zip_ref1:
-    zip_ref1.extractall('pages')
-
-with zipfile.ZipFile('pages/withoutmodel.zip', 'r') as zip_ref2:
-    zip_ref2.extractall('pages')
 
 
 df = pd.read_csv("pages/Final_nflx_data_2018-2022.csv")
@@ -93,6 +88,13 @@ X_train_lstm_twitter, X_val_lstm_twitter, y_train_lstm_twitter, y_val_lstm_twitt
 
 # Model trained using Gpu supported environment(Google Colab)
 # Check out :- https://colab.research.google.com/drive/1pKZ-gJe-GYg_asx455MXX7G01baeymQO?usp=sharing
+
+with zipfile.ZipFile('pages/withmodel.zip', 'r') as zip_ref1:
+    zip_ref1.extractall('pages')
+
+with zipfile.ZipFile('pages/withoutmodel.zip', 'r') as zip_ref2:
+    zip_ref2.extractall('pages')
+
 
 cnn_lstm_model_twitter = joblib.load('pages/withmodel.pkl')
 
