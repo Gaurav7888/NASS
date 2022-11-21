@@ -14,6 +14,15 @@ import seaborn as sns
 from tensorflow.keras.models import Model
 from tensorflow.keras.models import load_model
 import joblib
+import zipfile
+
+
+with zipfile.ZipFile('/home/gaurav/Documents/nass/pages/withmodel.zip', 'r') as zip_ref:
+    zip_ref.extractall('/home/gaurav/Documents/nass/pages')
+
+with zipfile.ZipFile('/home/gaurav/Documents/nass/pages/withoutmodel.zip', 'r') as zip_ref:
+    zip_ref.extractall('/home/gaurav/Documents/nass/pages')
+
 
 df = pd.read_csv("/pages/Final_nflx_data_2018-2022.csv")
 
