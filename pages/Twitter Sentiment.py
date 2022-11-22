@@ -6,14 +6,11 @@ from keras.callbacks import ModelCheckpoint
 from keras.models import Sequential
 from keras.layers import LSTM,Conv1D,Conv2D,MaxPooling2D,MaxPooling1D,Flatten
 from keras.layers import Dense, Dropout
-import pandas as pd
 from tensorflow.keras.optimizers import Adam
 from matplotlib import pyplot as plt
 from sklearn.preprocessing import StandardScaler,MinMaxScaler
 import seaborn as sns
 from tensorflow.keras.models import Model
-from tensorflow.keras.models import load_model
-import joblib
 import bz2file as bz2
 import pickle
 
@@ -99,11 +96,7 @@ def decompress_pickle(file):
 
 cnn_lstm_model_twitter = decompress_pickle('pages/compress_withmodel.pbz2')
 
-#cnn_lstm_model_twitter = cnn_lstm_model_twitter.load_weights('/home/gaurav/Documents/nass/pages/withModelWeights.h5')
-
 cnn_lstm_model_without_twitter = decompress_pickle('/pages/compress_withoutmodel.pbz2')
-#cnn_lstm_model_without_twitter.summary()
-#cnn_lstm_model_without_twitter = cnn_lstm_model_without_twitter.load_weights('/home/gaurav/Documents/nass/pages/withoutModelWeights.h5')
 
 
 from sklearn.metrics import mean_squared_error,mean_absolute_error
