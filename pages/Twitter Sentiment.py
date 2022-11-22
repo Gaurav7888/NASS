@@ -14,7 +14,8 @@ import seaborn as sns
 from tensorflow.keras.models import Model
 from tensorflow.keras.models import load_model
 import joblib
-import zipfile
+import bz2file as bz2
+import pickle
 
 
 
@@ -89,18 +90,18 @@ X_train_lstm_twitter, X_val_lstm_twitter, y_train_lstm_twitter, y_val_lstm_twitt
 # Model trained using Gpu supported environment(Google Colab)
 # Check out :- https://colab.research.google.com/drive/1pKZ-gJe-GYg_asx455MXX7G01baeymQO?usp=sharing
 
-with zipfile.ZipFile('pages/withmodel.zip', 'r') as zip_ref1:
-    zip_ref1.extractall('pages')
+def decompress_pickle(file):
 
-with zipfile.ZipFile('pages/withoutmodel.zip', 'r') as zip_ref2:
-    zip_ref2.extractall('pages')
+  data = bz2.BZ2File(file,'rb')
+  data = pickle.load(data)
+  return data
 
 
-cnn_lstm_model_twitter = joblib.load('pages/withmodel.pkl')
+cnn_lstm_model_twitter = decompress_pickle('pages/compress_withmodel.pbz2')
 
 #cnn_lstm_model_twitter = cnn_lstm_model_twitter.load_weights('/home/gaurav/Documents/nass/pages/withModelWeights.h5')
 
-cnn_lstm_model_without_twitter = joblib.load('pages/withoutmodel.pkl')
+cnn_lstm_model_without_twitter = decompress_pickle('/pages/compress_withoutmodel.pbz2')
 #cnn_lstm_model_without_twitter.summary()
 #cnn_lstm_model_without_twitter = cnn_lstm_model_without_twitter.load_weights('/home/gaurav/Documents/nass/pages/withoutModelWeights.h5')
 
