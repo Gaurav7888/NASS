@@ -14,4 +14,4 @@ tqdm
 lppls
 joblib
 bz2file
-
+protobuf==3.9.2
