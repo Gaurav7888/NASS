@@ -13,3 +13,5 @@ tqdm
 lppls
 joblib
 tensorflow-gpu
+bz2file
+pickle
