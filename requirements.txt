@@ -1,5 +1,4 @@
 matplotlib==3.6.0
-protobuf==3.9.2
 pickle
 numpy==1.23.4
 pandas==1.5.1
@@ -14,4 +13,5 @@ tqdm
 lppls
 joblib
 bz2file
+-U protobuf
 
